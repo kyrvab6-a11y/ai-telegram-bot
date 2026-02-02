@@ -5,8 +5,8 @@ from aiogram.types import Message
 from aiogram.filters import CommandStart
 from openai import OpenAI
 
-TOKEN = os.getenv("TG_TOKEN")
-OPENAI_KEY = os.getenv("OPENAI_KEY")
+TOKEN = "8598444224:AAHebFjrei0yWCuoQr7llsllV7YGCuBJeGA"
+OPENAI_KEY = "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"
 ADMIN_ID = int(os.getenv("ADMIN_ID"))
 
 client = OpenAI(api_key=OPENAI_KEY)
